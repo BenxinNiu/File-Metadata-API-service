@@ -17,11 +17,12 @@ const multer=Multer({
 });
 
 
-app.get('/data',multer.single('file'),(req,res)=>{
+app.post('/data',multer.single('file'),(req,res)=>{
 var object={
-  "file size":req.file.size,
-  "mime type"req.file.mimetype
+  "file size":req.file.size+" B",
+  "mime type":req.file.mimetype
 }
+res.send(object);
 });
 
 
