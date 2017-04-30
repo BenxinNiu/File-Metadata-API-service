@@ -1,0 +1,25 @@
+{
+  "name": "file-metadata-api",
+  "version": "1.0.0",
+  "description": "\"# File-Metadata-API-service\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenxinNiu/File-Metadata-API-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenxinNiu/File-Metadata-API-service/issues"
+  },
+  "homepage": "https://github.com/BenxinNiu/File-Metadata-API-service#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "multer": "^1.3.0",
+    "path": "^0.12.7"
+  }
+}
